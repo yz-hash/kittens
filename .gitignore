@@ -101,7 +101,8 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# Environments, where you secrets(例：API key) are held
+# secrets 不应该commited to repository 
 .env
 .venv
 env/
